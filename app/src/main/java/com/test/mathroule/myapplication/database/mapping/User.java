@@ -14,7 +14,7 @@ public class User {
 
     public String name;
 
-    @ColumnInfo(name = "group_name")
+    // FIXME @ColumnInfo(name = "group_name")
     public String group;
 
     public User(@NonNull String id, String name, String group) {
